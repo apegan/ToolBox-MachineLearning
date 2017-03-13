@@ -1,0 +1,18 @@
+Alisha Pegan's responses
+
+1. What is the general trend in the curve?
+    The trend is that the accuracy increases when more data is used for training.
+
+2. Are there parts of the curve that appear to be noisier than others? Why?
+    The curve is noisier when approx. 30%-40% of the data is used for training.
+    It appears that when 30% of the data is used for training, the algorithm can
+    reach 50% accuracy. Additional data for training changes or reduces that accuracy,
+    and then learning needs to recalculate to become more accurate.
+
+3. How many trails do you need to go get a smooth curve?
+    Around 70-100 trails is needed for a smooth curve.
+
+4. Try different values for C (by changing LogisticRegression(C=10**-10)). What
+  happens?
+    The curve changes significantly. I changed the the regression to be
+     LogisticRegression(C=10**-1), and the curve looks like a corner curve.
